@@ -1,0 +1,123 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 叶卢庆的旧博客
+subtitle: 个人的学习和研究心得
+description: 我的新博客在yeluqing.org/blog
+author: 叶卢庆
+email: me@yeluqing.org
+language: zh-Hans
+
+
+jiathis: true
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: yeluqing.org
+root: /old-blog
+permalink: :year/:month/:day/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+highlight:
+  enable: true
+  line_number: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: MMM D YYYY
+time_format: H:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+
+
+backup:
+    type: git
+    theme: next
+    repository:
+       github: git@github.com:Ye-luqing/blog-source.git,master
+
+
+avatar: /img/avatar.png
+
+
+theme: next
+exclude_generator:
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+   type: git
+   repo:
+        github: git@github.com:Ye-luqing/ye-luqing.github.io.git
+
+
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+
+
+# 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+baidu_analytics: 210d5e04535393e5de4bcd34a2fb917f
+
+
+swiftype_key: vx2umagUcvawLqm4jRjD
+
+
+# 站点起始时间
+since: 2015
+
+

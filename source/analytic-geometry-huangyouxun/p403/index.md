@@ -1,0 +1,80 @@
+﻿# 以$x$轴为仿射轴的轴向仿射的复合与逆
+我们知道，以$x$轴为仿射轴的仿射造像的方程式为
+$$
+\begin{pmatrix}
+  \overline{x}\\\
+\overline{y}
+\end{pmatrix}=
+\begin{pmatrix}
+  1&r\\\
+0&k
+\end{pmatrix}
+\begin{pmatrix}
+  x\\\
+y
+\end{pmatrix}.
+$$
+下面我们来看矩阵相乘：
+$$
+\begin{pmatrix}
+  1&r\_2\\\
+0&k\_2
+\end{pmatrix}
+\begin{pmatrix}
+  1&r\_1\\\
+0&k\_1
+\end{pmatrix}=
+\begin{pmatrix}
+  1&r\_1+r\_2k\_1\\\
+0&k\_1k\_2
+\end{pmatrix}.
+$$
+相乘得到的矩阵仍然表示一个以$x$轴为仿射轴的轴向仿射.下面我们考虑矩阵$
+\begin{pmatrix}
+  1&r\\\
+0&k
+\end{pmatrix}
+$何时可逆，以及有逆时，它的逆是什么.当且仅当$k\neq 0$时，矩阵是可逆的，此时它的逆是$
+\begin{pmatrix}
+  1&\frac{r-k}{k}\\\
+0&\frac{1}{k}
+\end{pmatrix},
+$，可见，矩阵的逆也代表以$x$轴为仿射轴的仿射造像.
+
+# 任意一个以$x$轴为仿射轴的轴向仿射的分解
+我们知道，以$x$轴为仿射轴的仿射造像的方程式为
+$$
+\begin{pmatrix}
+  \overline{x}\\\
+\overline{y}
+\end{pmatrix}=
+\begin{pmatrix}
+  1&r\\\
+0&k
+\end{pmatrix}
+\begin{pmatrix}
+  x\\\
+y
+\end{pmatrix}.
+$$
+而矩阵$
+\begin{pmatrix}
+  1&r\\\
+0&k
+\end{pmatrix}
+$可以分解如下：
+$$
+\begin{pmatrix}
+  1&r\\\
+0&k
+\end{pmatrix}=
+\begin{pmatrix}
+  1&0\\\
+0&k
+\end{pmatrix}
+\begin{pmatrix}
+  1&r\\\
+0&1
+\end{pmatrix}.
+$$
+这表明，任意一个以$x$轴为仿射轴的轴向仿射，都可以看作如下两个特殊的以$x$轴为仿射轴的轴向仿射的复合：先进行沿着$x$轴方向的剪切变换，再进行沿着$y$轴方向的伸缩变换.

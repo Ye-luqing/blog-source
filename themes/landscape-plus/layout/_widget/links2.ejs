@@ -1,0 +1,14 @@
+<% if (site.posts.length){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('民国图书') %></h3>
+    <div class="widget">
+      <ul>
+        <% for (var i in theme.links2){ %>
+          <li>
+            <a href="<%- theme.links2[i] %>" target="_blank"><%= i %></a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+<% } %>

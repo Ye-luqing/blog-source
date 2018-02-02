@@ -1,0 +1,124 @@
+﻿---
+title: A^TA的秩等于A的秩
+date: 2017-09-30 10:47:37
+categories:
+- 数学
+- 线性代数
+tags:
+- Strang《线性代数及其应用》
+
+---
+Gilbert Strang在他的《线性代数及其应用》(中文第二版)第114页中，通过证明$\mathcal{N}(A)=\mathcal{N}(A^TA)$来证明矩阵$A^TA$和矩阵$A$的秩相等.下面我用自己更加能接受的方法来证明$A^TA$的秩等于$A$的秩.
+
+我先用一个特例来说明我的方法.设矩阵$A=
+\begin{pmatrix}
+  1&4\\\
+  2&0\\\
+  3&1
+\end{pmatrix}, $则矩阵$A^{T}A$为
+\begin{equation}\label{eq:1}
+  \begin{pmatrix}
+    1&2&3\\\
+    4&0&1
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&4\\\
+    2&0\\\
+    3&1
+  \end{pmatrix}.
+\end{equation}
+对乘积\eqref{eq:1}左边的矩阵进行行变换(或列变换)，同时对乘积右边的矩阵进行对应的列变换(或行变换).比如,将乘积\eqref{eq:1}左边矩阵的第一行的$-4$倍加到第$2$行上,同时将乘积右边的矩阵的第一列乘以$-4$,然后加到第$2$列上.这样表达式\eqref{eq:1}就变成了
+\begin{equation}
+  \label{eq:2}
+  \begin{pmatrix}
+    1&2&3\\\
+    0&-8&-11
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&0\\\
+    2&-8\\\
+    3&-11
+  \end{pmatrix}.
+\end{equation}
+然后，将乘积\eqref{eq:2}左边矩阵第二行的$\frac{1}{4}$倍加到第$1$行上，同时将右边矩阵第$2$列的$\frac{1}{4}$倍加到第$1$列上，乘积\eqref{eq:2}会变成
+\begin{equation}
+  \label{eq:3}
+  \begin{pmatrix}
+    1&0&\frac{1}{4}\\\
+    0&-8&-11
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&0\\\
+    0&-8\\\
+   \frac{1}{4}&-11
+  \end{pmatrix}.
+\end{equation}
+将乘积\eqref{eq:3}左边矩阵的第一列的$-\frac{1}{4}$倍加到第$3$列上,同时将右边矩阵的第一行的$-\frac{1}{4}$倍加到第$3$行上,乘积\eqref{eq:3}会变成
+\begin{equation}
+  \label{eq:4}
+  \begin{pmatrix}
+    1&0&0\\\
+    0&-8&-11
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&0\\\
+    0&-8\\\
+    0&-11
+  \end{pmatrix}
+\end{equation}
+将乘积\eqref{eq:4}的左边矩阵第$2$列的$-\frac{11}{8}$倍加到第$3$列上，同时将右边矩阵第$2$行的$-\frac{11}{8}$倍加到第$3$行上，则乘积\eqref{eq:4}会变成
+\begin{equation}
+  \label{eq:5}
+  \begin{pmatrix}
+    1&0&0\\\
+    0&-8&0
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&0\\\
+0&-8\\\
+0&0
+  \end{pmatrix}.
+\end{equation}
+乘积\eqref{eq:5}左边的矩阵和右边矩阵的秩都会等于矩阵$A$的秩,因为无论是初等行变换还是初等列变换都不会改变矩阵的秩.而且易得矩阵$
+\begin{pmatrix}
+  1&0&0\\\
+  0&-8&0
+\end{pmatrix}
+\begin{pmatrix}
+  1&0\\\
+0&-8\\\
+0&0
+\end{pmatrix}
+$的秩和乘积\eqref{eq:5}左边矩阵的秩也相等.因此矩阵$
+\begin{pmatrix}
+  1&0&0\\\
+  0&-8&0
+\end{pmatrix}
+\begin{pmatrix}
+  1&0\\\
+0&-8\\\
+0&0
+\end{pmatrix}
+$的秩等于矩阵$A$的秩.且矩阵$
+\begin{pmatrix}
+  1&0&0\\\
+  0&-8&0
+\end{pmatrix}
+\begin{pmatrix}
+  1&0\\\
+0&-8\\\
+0&0
+\end{pmatrix}
+$是由矩阵$A^TA$经过行操作和列操作变过来的，因此矩阵$
+\begin{pmatrix}
+  1&0&0\\\
+  0&-8&0
+\end{pmatrix}
+\begin{pmatrix}
+  1&0\\\
+0&-8\\\
+0&0
+\end{pmatrix}
+$的秩也等于矩阵$A^TA$的秩.因此矩阵$A^TA$的秩等于矩阵$A$的秩.
+
+通过这个特殊的例子，我们不难窥见对于一般的矩阵$A$,命题照样成立.至于一般情形的证明我就不赘述了.

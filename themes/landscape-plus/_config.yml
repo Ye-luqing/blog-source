@@ -1,0 +1,94 @@
+# Header
+menu:
+  首页: /
+  关于: /about
+rss: /atom.xml
+
+# Content
+excerpt_link: 阅读全文
+fancybox: false
+mathjax: false
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+# - tag
+- tagcloud
+- archive
+- recent_posts
+- recent_comments
+- links
+- links3
+- links2
+
+# Links
+links:
+  陶哲轩: https://terrytao.wordpress.com
+  Gowers: https://gowers.wordpress.com/
+  线代启示录: https://ccjou.wordpress.com/
+  尼斯的灵魂: https://frankliou.wordpress.com/
+  刘小川1: https://liuxiaochuan.wordpress.com/
+  刘小川2: http://www.liuxiaochuan.org/
+  Quod Erat Demonstrandum: https://johnmayhk.wordpress.com/
+  卢昌海: http://changhai.org
+  数学笔记: http://math.tianpeng.org/
+  MathPhys Archive: https://www.math.usm.edu/lee/mathphysarchive/
+links3:
+  中科大往年考研试题: http://gradschool.ustc.edu.cn/articles/2010/09/18.html
+  Foundations of a general theory of functions of a variable complex magnitude(Riemann): vixra.org/pdf/1408.0132v1.pdf
+  Brook Taylor:Methodus Incrementorum Directa & Inversa: http://www.17centurymaths.com/contents/taylorscontents.html
+links2:
+  理想数论初步(E.Landau): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406277&metaData.lId=1409212&IdLib=40283415347ed8bd0134834eef150010
+  函数论(K.Knopp): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406312&metaData.lId=1409247&IdLib=40283415347ed8bd0134834eef150010
+  数论尺规作图及周率(J.W.A.Young): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501354&metaData.lId=505843&IdLib=40283415347ed8bd0134834eef150010
+  伽罗华与群论(L.R.Lieber): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406386&metaData.lId=1409321&IdLib=40283415347ed8bd0134834eef150010
+  直尺与圆规(H.P.Hudson): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501349&metaData.lId=505838&IdLib=40283415347ed8bd0134834eef150010
+  三线位标(N.M.Ferrers): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1404229&metaData.lId=1407164&IdLib=40283415347ed8bd0134834eef150010
+  方程解法(M.Merriman): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501346&metaData.lId=505835&IdLib=40283415347ed8bd0134834eef150010
+  方程式论(Florian Cajori): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501521&metaData.lId=506010&IdLib=40283415347ed8bd0134834eef150010
+  几何圆锥曲线论(A.Cockshott,F.B.Walters): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501548&metaData.lId=506037&IdLib=40283415347ed8bd0134834eef150010
+  纯粹几何与非欧几何(Thomas F. Holgate,Frederick S. Woods): http://mylib.nlc.gov.cn/web/guest/search/zhongwentushu/medaDataDisplay?metaData.id=1195251&metaData.lId=1200134&IdLib=40283415347ed8bd013483174ef60002
+  毕达哥拉士定理及福尔玛问题(徐韫知编译): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501552&metaData.lId=506041&IdLib=40283415347ed8bd0134834eef150010
+  西洋近世算学小史(D.E.Smith): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=529825&metaData.lId=534314&IdLib=40283415347ed8bd0134834eef150010
+  算学导论(A.N.Whitehend): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501550&metaData.lId=506039&IdLib=40283415347ed8bd0134834eef150010
+  解析数学讲义第一册(E.Goursat): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=157607&metaData.lId=162101&IdLib=40283415347ed8bd0134834eef150010
+  解析数学讲义第二册(E.Goursat): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=157610&metaData.lId=162104&IdLib=40283415347ed8bd0134834eef150010
+  解析数学讲义第三冊(E.Goursat): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=157572&metaData.lId=162066&IdLib=40283415347ed8bd0134834eef150010
+  高等算学分析(熊庆来): http://mylib.nlc.gov.cn/web/guest/search/zhongwentushu/medaDataDisplay?metaData.id=1195243&metaData.lId=1200126&IdLib=40283415347ed8bd013483174ef60002
+  变分法(何鲁): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=502007&metaData.lId=506496&IdLib=40283415347ed8bd0134834eef150010
+  集合论初步(萧文灿): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406268&metaData.lId=1409203&IdLib=40283415347ed8bd0134834eef150010
+  虚数详论(何鲁,段子燮): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=502183&metaData.lId=506672&IdLib=40283415347ed8bd0134834eef150010
+  积分问题解法(程凯丞): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1404434&metaData.lId=1407369&IdLib=40283415347ed8bd0134834eef150010
+  行列式之理论及其应用(R. F. Scott): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=502181&metaData.lId=506670&IdLib=40283415347ed8bd0134834eef150010
+  行列论(藤原松三郎): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406299&metaData.lId=1409234&IdLib=40283415347ed8bd0134834eef150010
+  高级几何学(N.A.Court): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1109705&metaData.lId=1114252&IdLib=40283415347ed8bd0134834eef150010
+  高等几何学(国立北京大学理学院): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501724&metaData.lId=506213&IdLib=40283415347ed8bd0134834eef150010
+  高等代数学通论(M.Bocher): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406362&metaData.lId=1409297&IdLib=40283415347ed8bd0134834eef150010
+  汉译郝尔爱特高等代数学(M. A. Hall,B. A. Knight): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=157595&metaData.lId=162089&IdLib=40283415347ed8bd0134834eef150010
+  代数学(北京大学理学院): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1404613&metaData.lId=1407548&IdLib=40283415347ed8bd0134834eef150010
+  数论(吕竹人): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1404234&metaData.lId=1407169&IdLib=40283415347ed8bd0134834eef150010
+  数论(樊畿,孙树本): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406372&metaData.lId=1409307&IdLib=40283415347ed8bd0134834eef150010
+  数论初步(吴在渊): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1109759&metaData.lId=1114306&IdLib=40283415347ed8bd0134834eef150010
+  微分方程通论(Abraham Cohen): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406290&metaData.lId=1409225&IdLib=40283415347ed8bd0134834eef150010
+  微分方程式简要(袁武烈): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406300&metaData.lId=1409235&IdLib=40283415347ed8bd0134834eef150010
+  微分方程初步(H.B.Phillips): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501705&metaData.lId=506194&IdLib=40283415347ed8bd0134834eef150010
+  积分方程式之导引(M.Bocher): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=1406359&metaData.lId=1409294&IdLib=40283415347ed8bd0134834eef150010
+  物质波与量子力学(A.E.Haas): http://mylib.nlc.gov.cn/web/guest/search/minguotushu/medaDataDisplay?metaData.id=501945&metaData.lId=506434&IdLib=40283415347ed8bd0134834eef150010
+  
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus: https://plus.google.com/114872430275416149988/posts
+fb_admins: 
+fb_app_id:
+
+# Duoshuo
+duoshuo_shortname: luqing
+
+# Baidu share
+baidushare: true
+
+
+baidu: true
